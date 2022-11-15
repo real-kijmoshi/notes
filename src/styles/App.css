@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+.note {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    width: fit-content;
+}
+
+.note button {
+    height: min-content;
+    margin-left: 10px;
+}
+
+.note #link {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+#newNote{
+    margin: 20px
+}
+
+#newNote button{
+    outline: 0;
+}
